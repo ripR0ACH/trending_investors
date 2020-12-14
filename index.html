@@ -11,6 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
@@ -25,63 +26,79 @@
 
 <body class="container-fluid">
     <header>
-        <div id="nav-toggle">
+        <div id="nav-toggle mt-3">
             <span></span>
             <span></span>
             <span></span>
             <span></span>
         </div>
-        <nav>
-            <header>
-                sitename.com
-            </header>
+        <nav class="nav open align-items-end justify-content-center">
+            <h4>sitename.com</h4>
             <img class="nav-logo" src="trending-logo.png" alt="logo">
+            <ul>
+                <li>
+                    list item 1
+                </li>
+                <li>
+                    list item 2
+                </li>
+                <li>
+                    etc...
+                </li>
+            </ul>
+            <div class="container">
+                <a href="#" class="fa fa-facebook m-1"></a>
+                <a href="#" class="fa fa-twitter m-1"></a>
+                <a href="#" class="fa fa-youtube m-1"></a>
+                <a href="#" class="fa fa-instagram m-1"></a>
+            </div>
         </nav>
     </header>
-
-    <div class="row">
-        <div class="col-sm-6">
-            <div class="m-5">
-                <h1 class="text-center">welcome to Trending Investors!</h1>
+    <main class="content open">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="m-5">
+                    <h2 class="text-center px-3">welcome to trending investors!</h2>
+                </div>
+            </div>
+            <div class="col-sm-6 text-center">
+                <canvas width="200" height="200">
+                    <p>
+                        some fallback text
+                    </p>
+                </canvas>
             </div>
         </div>
-        <div class="col-sm-6 text-center">
-            <canvas width="200" height="200">
-                <p>
-                    some fallback text
-                </p>
-            </canvas>
+        <div class="row">
+            <div class="col-12">
+                we teach you how to grow your money over time!
+            </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-12">
-            we teach you how to grow your money over time!
+        <div class="row">
+            <div class="col-12">
+                Explore the company:
+            </div>
+            <div class="col-sm-4">
+                courses
+            </div>
+            <div class="col-sm-4">
+                bio
+            </div>
+            <div class="col-sm-4">
+                join
+            </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-12">
-            Explore the company:
+        <div class="row">
+            <div class="col-12">
+                have questions?
+            </div>
         </div>
-        <div class="col-sm-4">
-            courses
+        <div class="row">
+            <div class="col-12">
+                footer
+            </div>
         </div>
-        <div class="col-sm-4">
-            bio
-        </div>
-        <div class="col-sm-4">
-            join
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-12">
-            have questions?
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-12">
-            footer
-        </div>
-    </div>
+    </main>
     <script src="index.js"></script>
 </body>
 
