@@ -13,7 +13,7 @@ body {
 }
 .btn {
   background-color: #90AB76;
-  color: white;
+  color: white!important;
 }
 nav {
   z-index: 99;
@@ -24,13 +24,13 @@ nav {
   height: 100%;
   text-align: center;
   background-color: white;
-  /* color: white; */
+  overflow: scroll;
 }
 nav.open {
   left: 0;
 }
 .nav-logo {
-  max-width: 100%;
+  max-width: 80%;
 }
 .fa {
   padding: 0.25rem;
