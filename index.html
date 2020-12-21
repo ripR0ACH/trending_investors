@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <title>
         test
@@ -12,18 +11,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body class="container-fluid">
     <header>
         <div id="nav-toggle">
@@ -34,17 +23,25 @@
         </div>
         <nav class="nav pt-5 align-content-start justify-content-center">
             <div class="container">
-                <h4>sitename.com</h4>
+                <a class="navbar-brand" href="#">
+                    sitename.com
+                </a>
                 <img class="nav-logo" src="trending-logo.png" alt="logo">
-                <ul>
-                    <li>
-                        list item 1
+                <ul class="navbar-nav">
+                    <li class="navbar-link my-2">
+                        <a href="#">
+                            list item 1
+                        </a>
                     </li>
-                    <li>
-                        list item 2
+                    <li class="navbar-link my-2">
+                        <a href="#">
+                            list item 2
+                        </a>
                     </li>
-                    <li>
-                        etc...
+                    <li class="navbar-link my-2">
+                        <a href="#">
+                            list item 3
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -59,19 +56,19 @@
     <main class="content">
         <div class="row">
             <div class="col-sm-6">
-                <div class="m-5">
-                    <img class="img-fluid" src="graph.jpg" alt="graph pic">
+                <div class="h-100 p-5">
+                    <canvas id="trendGraph"></canvas>
                 </div>
             </div>
             <div class="col-sm-6 align-items-center justify-content-center">
-                <div class="m-5 p-5">
+                <div class="p-5 m-5 h-100">
                     <h3 class="text-center">
                         Welcome to Trending Investors!
                     </h3>
                 </div>
             </div>
         </div>
-        <div class="row secondary-bg shadow">
+        <div class="row secondary-bg">
             <div class="col-12 my-5 text-center">
                 <h4>
                     We teach you how to grow your money over time. <br /> Curious?
@@ -150,6 +147,15 @@
             </div>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
     <script src="index.js"></script>
 </body>
 </html>
