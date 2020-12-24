@@ -6,7 +6,7 @@ function makeGraph() {
     ctx.lineWidth = 5;
     ctx.strokeStyle = "green";
     ctx.moveTo(w/20, h/20);
-    ctx.lineTo(w/20, 0;
+    ctx.lineTo(w/20, 0);
     ctx.lineTo(w, h-100);
     ctx.stroke();
     console.log(w / 2 + " " + h / 2);
