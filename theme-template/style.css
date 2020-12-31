@@ -3,7 +3,6 @@ header{
 }
 body {
   background-color: #C0C0C0;
-  color: black;
 }
 .secondary-bg {
   background-color: #3B3B3B;
@@ -12,8 +11,9 @@ body {
   background-color: #EEEEEE;
 }
 .btn {
+  color: white!important;
+  font-weight: bold;
   background-color: #90AB76;
-  color: white;
 }
 nav {
   z-index: 99;
@@ -24,7 +24,6 @@ nav {
   height: 100%;
   text-align: center;
   background-color: white;
-  /* color: white; */
 }
 nav.open {
   left: 0;
@@ -128,6 +127,9 @@ div.row.secondary-bg {
   width: 0%;
   left: 50%;
 }
+#trendGraph {
+  width: 100%;
+}
 @media (min-width: 768px) {
   nav {
     width: 20vw;
@@ -137,6 +139,9 @@ div.row.secondary-bg {
     display: none;
   }
   main.content {
+    margin-left: 20vw;
+  }
+  footer {
     margin-left: 20vw;
   }
 }
