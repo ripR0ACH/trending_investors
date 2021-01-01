@@ -46,7 +46,7 @@
     </div>
     <div class="explore-link text-center col-sm-4 my-5">
         <div class="w-100">
-            <img class="card-img" src="courses.jpg" alt="courses img">
+            <img class="card-img" src="/wp-content/themes/trending_investors/assets/images/courses.jpg" alt="courses img">
             <div class="card-body">
                 <h5 class="card-title">courses</h5>
                 <p class="card-text">
@@ -61,7 +61,7 @@
     </div>
     <div class="explore-link text-center col-sm-4 my-5">
         <div class="w-100">
-            <img class="card-img" src="bio.jpg" alt="bio img">
+            <img class="card-img" src="/wp-content/themes/trending_investors/assets/images/bio.jpg" alt="bio img">
             <div class="card-body">
                 <h5 class="card-title">bio</h5>
                 <p class="card-text">
@@ -76,7 +76,7 @@
     </div>
     <div class="explore-link text-center col-sm-4 my-5">
         <div class="w-100">
-            <img class="card-img" src="join.jpg" alt="join img">
+            <img class="card-img" src="/wp-content/themes/trending_investors/assets/images/join.jpg" alt="join img">
             <div class="card-body">
                 <h5 class="card-title">join</h5>
                 <p class="card-text">
