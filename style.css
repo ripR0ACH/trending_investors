@@ -156,10 +156,6 @@ div.row.secondary-bg {
   width: 0%;
   left: 50%;
 }
-#trendGraph {
-  position: relative;
-  width: 100%;
-}
 main.content {
   margin-top: 4rem;
 }

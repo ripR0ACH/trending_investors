@@ -4,14 +4,11 @@
     */
     get_header();
 ?>
-<div class="row py-5">
+<div class="row">
     <div class="col-sm-6">
-        <div class="h-100 py-5">
-            <div id="trendGraph">
-                <video width="100%" height="100%" autoplay>
-                    <source src="/wp-content/themes/trending_investors/assets/videos/home-animation.mp4">
-                    this animation isn't supported in your browser
-                </video>
+        <div class="w-100" style="height: 30vh;">
+            <div class="h-100 w-100" id="trendGraph">
+                <img class="w-100" src="/wp-content/themes/trending_investors/assets/images/graph.png" alt="graph">
             </div>
         </div>
     </div>
@@ -41,10 +38,10 @@
     </div>
 </div>
 <div class="row muted-bg">
-    <div class="col-12 mt-5 mb-3">
+    <div class="col-12 my-5">
         <h4>Explore the company:</h4>
     </div>
-    <div class="explore-link text-center col-sm-4 my-5">
+    <div class="explore-link text-center col-sm-4 mb-5">
         <div class="w-100">
             <img class="card-img" src="/wp-content/themes/trending_investors/assets/images/courses.jpg" alt="courses img">
             <div class="card-body">
@@ -59,7 +56,7 @@
             </div>
         </div>
     </div>
-    <div class="explore-link text-center col-sm-4 my-5">
+    <div class="explore-link text-center col-sm-4 mb-5">
         <div class="w-100">
             <img class="card-img" src="/wp-content/themes/trending_investors/assets/images/bio.jpg" alt="bio img">
             <div class="card-body">
@@ -74,7 +71,7 @@
             </div>
         </div>
     </div>
-    <div class="explore-link text-center col-sm-4 my-5">
+    <div class="explore-link text-center col-sm-4 mb-5">
         <div class="w-100">
             <img class="card-img" src="/wp-content/themes/trending_investors/assets/images/join.jpg" alt="join img">
             <div class="card-body">
