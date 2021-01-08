@@ -14,7 +14,7 @@
 
 <body class="container-fluid">
     <header>
-        <div id="nav-toggle">
+        <div id="nav-toggle" style="z-index: 1000;">
             <span></span>
             <span></span>
             <span></span>
@@ -22,20 +22,20 @@
         </div>
         <nav class="nav pt-5 align-content-start justify-content-center">
             <div class="container">
-                <h2 class="my-5">
-                    <a class="navbar-brand" href="/">
+                <h4 id="title" class="w-100 text-wrap">
+                    <a class="w-100 text-wrap" style="color: black; text-decoration: none;" href="/">
                         <?php
                             echo get_bloginfo('name');
                         ?>
                     </a>
-                </h2>
+                </h4>
                 <?php
                     if(function_exists('the_custom_logo')) {
                         $custom_logo_id = get_theme_mod('custom_logo');
                         $logo = wp_get_attachment_image_src($custom_logo_id);
                     }
                 ?>
-                <img class="nav-logo" src="<?php echo $logo[0] ?>" alt="logo">
+                <img class="nav-logo mt-5" src="<?php echo $logo[0] ?>" alt="logo">
                 <?php
                     wp_nav_menu(
                         array(
